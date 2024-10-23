@@ -1,0 +1,29 @@
+{
+  "name": "nabeghe/shortnum",
+  "description": "Shortening numbers and using abbreviated letters in PHP.",
+  "keywords": [
+    "shortnum", "short num", "shortnumber", "short number", "short", "num", "number", "numbers",
+    "number shortener", "shortener", "number shorthand", "number abbreviation", "numerical notation", "math",
+    "library", "helper", "support"
+  ],
+  "type": "library",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nabeghe/shortnum-php",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Nabeghe\\Shortnum\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hadi Akbarzadeh",
+      "email": "hadicoder@gmail.com",
+      "homepage": "https://elatel.ir",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  }
+}
