@@ -1,4 +1,4 @@
-# Shortnum for PHP.
+# Shortnum for PHP ≥ 5.6
 
 > Shortening numbers and using abbreviated letters in PHP.
 
@@ -7,8 +7,6 @@ Shortnum supports the following units:
 
 `'K', 'M', 'B', 'T', 'Qa', 'Qi', 'Sx', 'Sp', 'Oc', 'No', 'Dc', 'Ud', 'Dd', 'Td', 'Qa', 'Qi', 'Sx', 'Sp',
 'Oc', 'No'`
-
-<hr>
 
 ## 🫡 Usage
 
@@ -19,8 +17,6 @@ You can install the package via composer:
 ```bash
 composer require nabeghe/colory
 ```
-
-<hr>
 
 #### Example:
 
@@ -49,10 +45,6 @@ echo "1000000000000000000000000000 => ".Shortnum::short(100000000000000000000000
 echo "1000000000000000000000000000000 => ".Shortnum::short(1000000000000000000000000000000)."\n"; // 1No
 ```
 
-<hr>
-
 ## 📖 License
-
-Copyright (c) Hadi Akbarzadeh
 
 Licensed under the MIT license, see [LICENSE.md](LICENSE.md) for details.
